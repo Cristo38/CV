@@ -9,49 +9,49 @@ body {
 
 .container {
     display: flex;
-    flex-wrap: wrap; /* allow wrapping on smaller screens */
-    max-width: 1000px;
+    flex-wrap: wrap;
+    max-width: 850px; /* smaller than before */
     margin: 20px auto;
     background-color: #1e1e1e;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     overflow: hidden;
 }
 
 /* Sidebar */
 .sidebar {
     background-color: #232323;
-    padding: 16px;
-    width: 33%;
+    padding: 14px;
+    width: 35%;
     text-align: center;
     border-right: 3px solid #007acc;
 }
 
 .profile-pic {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    border: 3px solid #e0e0e0;
-    margin-bottom: 16px;
+    border: 2px solid #e0e0e0;
+    margin-bottom: 12px;
 }
 
 h2, h3 {
     color: #f5f5f5;
-    margin-bottom: 8px;
-    font-size: 18px;
+    margin-bottom: 6px;
+    font-size: 16px;
 }
 
 .skills-list, ul, .personal-info, .info-section {
     background-color: #1a1a1a;
     border-radius: 6px;
-    padding: 10px;
-    margin-bottom: 16px;
+    padding: 8px;
+    margin-bottom: 14px;
 }
 
 .skills-list li, .stars {
     display: flex;
     justify-content: space-between;
-    padding: 6px 0;
+    padding: 4px 0;
 }
 
 /* Content */
@@ -59,14 +59,14 @@ h2, h3 {
     flex: 1;
     padding: 20px;
     background-color: #232323;
-    width: 67%;
+    width: 65%;
 }
 
 h2 {
     border-bottom: 2px solid #007acc;
     padding-bottom: 6px;
-    margin-bottom: 12px;
-    font-size: 22px;
+    margin-bottom: 10px;
+    font-size: 20px;
     color: #007acc;
 }
 
@@ -76,38 +76,38 @@ ul {
 }
 
 ul li {
-    margin: 14px 0;
-    font-size: 16px;
+    margin: 10px 0;
+    font-size: 15px;
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 14px;
 }
 
 section {
-    margin-bottom: 24px;
-    padding-bottom: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #007acc;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* Download knop */
 .download-btn {
     display: block;
-    width: 200px;
+    width: 180px;
     margin: 20px auto;
-    padding: 12px;
+    padding: 10px;
     background-color: #007acc;
     color: white;
     text-align: center;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 6px;
 }
 
@@ -129,18 +129,18 @@ h3 {
 
     .sidebar, .content {
         width: 100%;
-        padding: 16px;
+        padding: 14px;
         border-right: none;
         border-bottom: 2px solid #007acc;
     }
 
     .profile-pic {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h3, p, ul li {
@@ -149,6 +149,6 @@ h3 {
 
     .download-btn {
         width: 100%;
-        font-size: 16px;
+        font-size: 15px;
     }
 }
