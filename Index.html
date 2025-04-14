@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Senne Geurts</title>
+  <link rel="stylesheet" href="public/style.css">
+  <script>
+    function downloadCV() {
+      window.print();
+    }
+  </script>
+</head>
+<body>
+<div class="container">
+  <aside class="sidebar">
+    <img src="Profile.jpg" alt="Profielfoto" class="profile-pic">
+    <h2>Senne Geurts</h2>
+    <p>Junior Developer | Backend & Fullstack Enthusiast</p>
+
+    <div class="personal-info">
+      <p><strong>Geboortedatum:</strong> 9 april 2003</p>
+      <p><strong>Adres:</strong> Zuiderring 31, Genk, België 3600</p>
+      <p><strong>Email:</strong> <a href="mailto:sennegeurts2@gmail.com">sennegeurts2@gmail.com</a></p> <!-- Added Email -->
+    </div>
+
+    <div class="skills-list">
+      <h3>Vaardigheden</h3>
+      <ul>
+        <li>C# <span class="stars">★★★★★</span></li>
+        <li>HTML & CSS <span class="stars">★★★★☆</span></li>
+        <li>JavaScript <span class="stars">★★★☆☆</span></li>
+        <li>SQL <span class="stars">★★★★☆</span></li>
+        <li>Java <span class="stars">★★★☆☆</span></li>
+        <li>Python <span class="stars">★★☆☆☆</span></li>
+        <li>Visual Basic <span class="stars">★★☆☆☆</span></li>
+      </ul>
+    </div>
+
+    <div class="skills-list">
+      <h3>Talen</h3>
+      <ul>
+        <li>Nederlands <span class="stars">★★★★★</span></li>
+        <li>Engels <span class="stars">★★★★☆</span></li>
+        <li>Frans <span class="stars">★★☆☆☆</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="content">
+    <section class="info-section">
+      <h2>Opleiding</h2>
+      <ul>
+        <li><strong>2022 - 2025:</strong> Graduaat Programmeren (PXL)</li>
+        <li><strong>2021 - 2022:</strong> Bachelor Toegepaste Informatica (PXL)</li>
+        <li><strong>2019 - 2021:</strong> Middelbaar Informaticabeheer</li>
+      </ul>
+    </section>
+
+    <section class="info-section">
+      <h2>Graduaat Programmeren</h2>
+      <p>In mijn graduaat Programmeren leerden we de basis van C#, het ontwikkelen van MVC-applicaties en het bouwen van webapplicaties met ASP.NET Core.</p>
+      <p>We onderzochten ook Identity Framework en implementeerden Google-, Facebook- en Duende-logins in websites.</p>
+      <p>Daarnaast maakten we kennis met mobiele ontwikkeling met MAUI, waar ik een companionapp ontwikkelde voor Magic: The Gathering (MTG), een populair ruilkaartspel. De app bood de mogelijkheid om je kaarten te volgen, levens te tracken tijdens het spel, en een database te raadplegen via de MTG API. Ook werd het mogelijk om MTG-toernooien bij te houden.</p>
+      <p>SQL was een belangrijk onderdeel van het programma, en ik ontwikkelde uitgebreide kennis van databases en query's.</p>
+      <p>We kregen ook inzicht in beveiliging, zoals cross-site scripting (XSS) en SQL-injectie, en leerden hoe deze kwetsbaarheden kunnen worden misbruikt.</p>
+      <p>Voor mijn graduaatsproef onderzocht ik hoe AI gebruikt kan worden voor het genereren van testcases, en onderzocht ik welk AI-model het beste geschikt zou zijn voor deze taak.</p>
+    </section>
+
+    <section class="info-section">
+      <h2>Stage bij Brightest</h2>
+      <p>Mijn stage bij Brightest was in een team van drie, waar we werkten aan het ontwikkelen van een testautomatiseringsframework voor websites, Android-apps en API's.</p>
+      <p>Mijn focus lag vooral op accountgerelateerde testen, waarbij ik ook mijn collega's ondersteunde bij het debuggen van hun code.</p>
+      <p>Een belangrijk onderdeel van mijn werk was het opzetten van de structuur voor het framework, inclusief het maken van een driver- en wachtmanager, zodat we niet telkens nieuwe instantiaties hoefden te maken.</p>
+      <p>Daarnaast deed ik onderzoek naar de meest geschikte tools voor testautomatisering en koos ik samen met mijn team voor Selenium en Appium, aangezien deze gemakkelijk te integreren waren en goed ondersteund werden in de community.</p>
+    </section>
+
+    <section class="info-section">
+      <h2>Werkervaring</h2>
+      <ul>
+        <li><strong>2023 - heden:</strong> Studentenjob als ober in de VIP van KRC Genk</li>
+        <li><strong>2023 - 2024:</strong> Stage bij Brightest - Testautomatisering framework</li>
+        <li><strong>2021 - 2022:</strong> Studentenjob keukenpersoneel ZOL Genk</li>
+        <li><strong>2019 - 2020:</strong> Stage in computer- en smartphone herstelwinkel</li>
+        <li><strong>2020 - 2021:</strong> Studentenjob schoonmaakpersoneel ZOL Genk</li>
+      </ul>
+    </section>
+
+    <section class="info-section">
+      <h2>Hobby's</h2>
+      <p>Videogames, bordspellen, Magic the Gathering, D&D, PC's bouwen, programmeren</p>
+    </section>
+
+    <section class="info-section">
+      <h2>Voorkeur in werk</h2>
+      <p>Ik werk het liefst als backend programmeur, maar kan indien nodig ook fullstack werken.</p>
+    </section>
+  </main>
+</div>
+<button class="download-btn" onclick="downloadCV()">Download CV</button>
+</body>
+</html>
